@@ -1,27 +1,34 @@
 img {
-  float:left;
+  /*floatleft:;*/
+  display: inline;
   margin:0 10px 10px 10px;
-  width:200px;
-
+  width:270px;
 }
 nav {
-  font-size: 15pt;
+  font-size: 12pt;
   text-align: center;
+  /*font-family: 'Work Sans', sans-serif;*/
+  color: white;
 }
 p {
   text-indent: 50px;
 }
 h1 {
   text-align: center;
+  color: white;
+  font-size: 30pt;
+  font-family: 'Work Sans', sans-serif;
+
 }
 a:hover {
   color: #0be8ee;
 }
 a:visited {
-  color: #dbdbdb;
+  color: #8cd9ff;
 }
 a {
-  color: black;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
 }
 table {
   border-collapse:collapse;
@@ -33,12 +40,38 @@ table {
 table, th, td {
   border: 1px solid black;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+}
+
+th {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
 }
 #info {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 #in_the_clouds{
   /*background-repeat: no-repeat;
   background-size: cover;*/
   background-image: url("http://weknowyourdreams.com/images/cloud/cloud-02.jpg");
+}
+div {
+  background-color: white;
+  margin: 20px;
+}
+p, ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+}
+body {
+  background-color: #115dbb;
 }
