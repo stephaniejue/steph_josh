@@ -1,0 +1,44 @@
+img {
+  float:left;
+  margin:0 10px 10px 10px;
+  width:200px;
+
+}
+nav {
+  font-size: 15pt;
+  text-align: center;
+}
+p {
+  text-indent: 50px;
+}
+h1 {
+  text-align: center;
+}
+a:hover {
+  color: #0be8ee;
+}
+a:visited {
+  color: #dbdbdb;
+}
+a {
+  color: black;
+}
+table {
+  border-collapse:collapse;
+  width: 92%;
+  margin: auto;
+  border: solid;
+
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+#info {
+  text-align: center;
+}
+#in_the_clouds{
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+  background-image: url("http://weknowyourdreams.com/images/cloud/cloud-02.jpg");
+}
